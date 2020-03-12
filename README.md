@@ -25,7 +25,7 @@ Open the `index.html` file in your browser and check the console in Chrome Dev T
 Figure out what you need to change to give Javascript access to the `h1#header` element.
 
 **YOUR NOTES**
-```
+```first deliveriable: header was null because the script tag was in the head of index.html. Moved the script tag to the base of the body.
 
 ```
 
@@ -34,7 +34,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 Now that you have access to the `h1#header` element, use Javascript to change the element's font color to red (of course).
 
 **YOUR NOTES**
-```
+```tried fontColor()...didn't work. Error header.fontColor('red') is not a function
 
 ```
 
@@ -56,7 +56,8 @@ Create a DOM element that looks like this for each player and append it to the `
 ```
 
 **YOUR NOTES**
-```
+``` players.innerHTML += appends this html to the end of the player-container div
+    since its an object I can use dot notation to grab elements.
 
 ```
 
